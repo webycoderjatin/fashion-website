@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    display: inline-block;
+    
+}
+.logo{
+    font-family: 'Abril Fatface', cursive;
+    margin: 10px 20px;
+}
+nav ul li{
+    display: inline-block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cont{
+    display: inline-block;
+    position: absolute;
+    top: 23px;
+    left: 450px;
+}
+.right{
+    position: relative;
+    display: inline-block;
+    top: -3px;
+    left: 1100px;
+   
+
+}
+.active{
+    border-bottom: 1px solid pink;
+}
+nav{
+    box-shadow: 1px 1px 10px rgb(218, 218, 218);
+}
+.back{
+    margin-top: 150px;
+    margin-left: 60px;
+}
+.title{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 100px;
+    left: 368px;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+}
+#buy{
+    border-bottom: 2px solid pink;
+}
+#or{
+    color: pink;
+}
+.nav:hover{
+    border-bottom: 1px solid pink;
+    
+}
